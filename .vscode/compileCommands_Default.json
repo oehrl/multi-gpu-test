@@ -1,0 +1,102 @@
+[
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Source/MultiGPURendering/MultiGPURendering.Build.cs",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPURendering.1.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Source/MultiGPURendering/Private/MultiGPURendering.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPURendering.1.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Source/MultiGPURendering/Private/MultiGPUWindow.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPURendering.1.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Source/MultiGPURendering/Public/MultiGPURendering.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPURendering.1.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Source/MultiGPURendering/Public/MultiGPUWindow.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPURendering.1.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUGameInstance.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUGameInstance.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTest.Build.cs",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTest.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTest.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestCharacter.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestCharacter.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestGameMode.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestGameMode.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestHUD.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestHUD.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestProjectile.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUTestProjectile.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	},
+	{
+		"file": "/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.h",
+		"command": "/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @\"/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default/MultiGPUTest.177.rsp\"",
+		"directory": "/home/so225523/Code/UnrealEngine/Engine/Source"
+	}
+]

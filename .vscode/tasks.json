@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MultiGPUTest Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Mac",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"IOS",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"Linux",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"LinuxAArch64",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Shipping",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTest TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTest TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTest",
+				"TVOS",
+				"Test",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTestEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTestEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTestEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Linux",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTestEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"Debug",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTestEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"DebugGame",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MultiGPUTestEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		},
+		{
+			"label": "MultiGPUTestEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"MultiGPUTestEditor",
+				"Mac",
+				"Development",
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/so225523/Code/UnrealEngine"
+			}
+		}
+	]
+}

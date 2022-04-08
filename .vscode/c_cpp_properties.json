@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "MultiGPUTestEditor Editor Linux Development (MultiGPUTest)",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_MultiGPUTest.json"
+		},
+		{
+			"name": "Linux",
+			"intelliSenseMode": "clang-x64",
+			"compileCommands": "/home/so225523/Code/MultiGPUTest/.vscode/compileCommands_Default.json"
+		}
+	]
+}

@@ -1,0 +1,426 @@
+﻿Log file open, 11/17/21 13:47:00
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MultiGPUTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 53 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.199004
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin MultiGPURendering
+LogInit: Warning: Incompatible or missing module: MultiGPUTest
+LogInit: Warning: Incompatible or missing module: MultiGPURendering
+LogInit: Initializing SDL.
+LogInit: Initialized SDL 2.0.12 revision: 13609 (hg-13609:34cc7d3b69d3) (compiled against 2.0.12)
+LogInit: Using SDL video driver 'x11'
+LogInit: Display metrics:
+LogInit:   PrimaryDisplayWidth: 1920
+LogInit:   PrimaryDisplayHeight: 1080
+LogInit:   PrimaryDisplayWorkAreaRect:
+LogInit:     Left=0, Top=28, Right=1920, Bottom=1042
+LogInit:   VirtualDisplayRect:
+LogInit:     Left=0, Top=28, Right=1920, Bottom=1042
+LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   Number of monitors: 1
+LogInit:     Monitor 0
+LogInit:       Name: DELL P2414H 24"
+LogInit:       ID: display0
+LogInit:       NativeWidth: 1920
+LogInit:       NativeHeight: 1080
+LogInit:       bIsPrimary: true
+Running /home/so225523/Code/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Linux -Project="/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject" -TargetType=Editor -Progress
+
+Running Mono...
+
+Fixing inconsistent case in filenames.
+Setting up Mono
+~/Code/UnrealEngine/Engine ~/Code/UnrealEngine/Engine/Binaries/Linux
+Using 'git status' to determine working set for adaptive non-unity build (/home/so225523/Code/UnrealEngine).
+Creating makefile for MultiGPUTestEditor (UnrealBuildTool.exe is newer)
+@progress push 5%
+@progress push 5%
+@progress pop
+Parsing headers for MultiGPUTestEditor
+  Running UnrealHeaderTool "/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject" "/home/so225523/Code/MultiGPUTest/Intermediate/Build/Linux/B4D820EA/MultiGPUTestEditor/Development/MultiGPUTestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="/home/so225523/Code/UnrealEngine/Engine/Programs/UnrealBuildTool/Log_UHT.txt"
+LogInit: Display: Loading text-based GConfig....
+Reflection code generated for MultiGPUTestEditor in 6.3571889 seconds
+@progress pop
+------- Build details --------
+Using toolchain located at '/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu'.
+Using clang (/home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '11.0.1' (string), 11 (major), 0 (minor), 1 (patch)
+Using bundled libc++ standard C++ library.
+Using lld linker
+Using llvm-ar : /home/so225523/Code/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v19_clang-11.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+Using fast way to relink  circularly dependent libraries (no FixDeps).
+------------------------------
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-0475.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-0567.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-0691.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-0945.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-1374.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-1454.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-1637.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-2381.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-3019.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-3747.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-3818.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-4589.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-4693.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-4720.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-4812.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-5032.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-5114.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-5712.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-6396.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-7507.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-7617.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-7637.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-7746.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-9024.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-9549.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-9886.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-9902.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Binaries/Linux/libUE4Editor-MultiGPUTest-9917.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0001.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0005.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0010.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0014.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0015.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0016.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0017.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0018.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0019.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0020.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0021.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0022.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0023.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0024.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0025.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0026.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0027.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0028.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0029.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0030.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0031.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0032.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0033.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0034.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0035.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0036.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0037.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0038.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0039.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0040.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0041.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0042.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0043.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0044.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0045.so
+Deleted hot-reload file: /home/so225523/Code/MultiGPUTest/Plugins/MultiGPURendering/Binaries/Linux/libUE4Editor-MultiGPURendering-0046.so
+Building MultiGPUTestEditor...
+Performing 19 actions (31 in parallel)
+[1/19] Compile Module.MultiGPURendering.cpp
+[2/19] Compile MultiGPUTestCharacter.cpp
+[6/19] Compile MultiGPUTestProjectile.gen.cpp
+[16/19] Compile MultiGPUTestCharacter.gen.cpp
+[10/19] Compile MultiGPUTest.init.gen.cpp
+[3/19] Compile MultiGPUTest.cpp
+[9/19] Compile MultiGPUTestHUD.gen.cpp
+[13/19] Compile MultiGPUTestProjectile.cpp
+[4/19] Compile MultiGPUGameInstance.cpp
+[5/19] Compile MultiGPUWindowTest.gen.cpp
+[12/19] Compile MultiGPUWindowTest.cpp
+[14/19] Compile Module.MultiGPURendering.gen.cpp
+[11/19] Compile MultiGPUGameInstance.gen.cpp
+[15/19] Compile MultiGPUTestHUD.cpp
+[7/19] Compile MultiGPUTestGameMode.cpp
+[8/19] Compile MultiGPUTestGameMode.gen.cpp
+In file included from /home/so225523/Code/MultiGPUTest/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MultiGPUTest/MultiGPUWindowTest.gen.cpp:8:
+[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.h:31:3: [0m[0;1;31merror: [0m[1munknown type name 'UViewportClient'; did you mean 'FViewportClient'?[0m
+  UViewportClient* ViewportClient;
+[0;1;32m  ^~~~~~~~~~~~~~~
+[0m[0;32m  FViewportClient
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Public/UnrealEngine.h:15:7: [0m[0;1;30mnote: [0m'FViewportClient' declared here[0m
+class FViewportClient;
+[0;1;32m      ^
+In file included from /home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:4:
+[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.h:31:3: [0m[0;1;31merror: [0m[1munknown type name 'UViewportClient'; did you mean 'FViewportClient'?[0m
+  UViewportClient* ViewportClient;
+[0;1;32m  ^~~~~~~~~~~~~~~
+[0m[0;32m  FViewportClient
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Public/UnrealEngine.h:15:7: [0m[0;1;30mnote: [0m'FViewportClient' declared here[0m
+class FViewportClient;
+[0;1;32m      ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:26:20: [0m[0;1;31merror: [0m[1mno member named 'Init' in 'FViewportClient'[0m
+  ViewportClient ->Init(*GameInstance->GetWorldContext(), GameInstance, false);
+[0;1;32m  ~~~~~~~~~~~~~~   ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:28:51: [0m[0;1;31merror: [0m[1mincompatible pointer types assigning to 'class UGameViewportClient *' from 'FViewportClient *'[0m
+  GameInstance->GetWorldContext()->GameViewport = ViewportClient;
+[0;1;32m                                                  ^~~~~~~~~~~~~~
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:41:14: [0m[0;1;31merror: [0m[1munknown type name 'SGameLayerManager'; did you mean 'IGameLayerManager'?[0m
+  TSharedRef<SGameLayerManager> LayerManagerRef = SNew(SGameLayerManager)
+[0;1;32m             ^~~~~~~~~~~~~~~~~
+[0m[0;32m             IGameLayerManager
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h:29:7: [0m[0;1;30mnote: [0m'IGameLayerManager' declared here[0m
+class IGameLayerManager;
+[0;1;32m      ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:41:56: [0m[0;1;31merror: [0m[1munknown type name 'SGameLayerManager'; did you mean 'IGameLayerManager'?[0m
+  TSharedRef<SGameLayerManager> LayerManagerRef = SNew(SGameLayerManager)
+[0;1;32m                                                       ^~~~~~~~~~~~~~~~~
+[0m[0;32m                                                       IGameLayerManager
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:34:12: [0m[0;1;30mnote: [0mexpanded from macro 'SNew'[0m
+        MakeTDecl<WidgetType>( #WidgetType, __FILE__, __LINE__, RequiredArgs::MakeRequiredArgs(__VA_ARGS__) ) <<= TYPENAME_OUTSIDE_TEMPLATE WidgetType::FArguments()
+[0;1;32m                  ^
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h:29:7: [0m[0;1;30mnote: [0m'IGameLayerManager' declared here[0m
+class IGameLayerManager;
+[0;1;32m      ^
+[0mIn file included from /home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:1:
+In file included from /home/so225523/Code/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Engine/SharedPCH.Engine.ShadowErrors.h:283:
+In file included from /home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h:348:
+[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:1098:53: [0m[0;1;31merror: [0m[1mincomplete type 'IGameLayerManager' named in nested name specifier[0m
+        TSharedRef<WidgetType> operator<<=( const typename WidgetType::FArguments& InArgs ) const
+[0;1;32m                                                           ^~~~~~~~~~~~
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:41:51: [0m[0;1;30mnote: [0min instantiation of template class 'TSlateDecl<IGameLayerManager, RequiredArgs::T0RequiredArgs>' requested here[0m
+  TSharedRef<SGameLayerManager> LayerManagerRef = SNew(SGameLayerManager)
+[0;1;32m                                                  ^
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:34:2: [0m[0;1;30mnote: [0mexpanded from macro 'SNew'[0m
+        MakeTDecl<WidgetType>( #WidgetType, __FILE__, __LINE__, RequiredArgs::MakeRequiredArgs(__VA_ARGS__) ) <<= TYPENAME_OUTSIDE_TEMPLATE WidgetType::FArguments()
+[0;1;32m        ^
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h:29:7: [0m[0;1;30mnote: [0mforward declaration of 'IGameLayerManager'[0m
+class IGameLayerManager;
+[0;1;32m      ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:41:56: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'SGameLayerManager'; did you mean 'IGameLayerManager'?[0m
+  TSharedRef<SGameLayerManager> LayerManagerRef = SNew(SGameLayerManager)
+[0;1;32m                                                       ^~~~~~~~~~~~~~~~~
+[0m[0;32m                                                       IGameLayerManager
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:34:134: [0m[0;1;30mnote: [0mexpanded from macro 'SNew'[0m
+        MakeTDecl<WidgetType>( #WidgetType, __FILE__, __LINE__, RequiredArgs::MakeRequiredArgs(__VA_ARGS__) ) <<= TYPENAME_OUTSIDE_TEMPLATE WidgetType::FArguments()
+[0;1;32m                                                                                                                                            ^
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h:29:7: [0m[0;1;30mnote: [0m'IGameLayerManager' declared here[0m
+class IGameLayerManager;
+[0;1;32m      ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:41:56: [0m[0;1;31merror: [0m[1mincomplete type 'IGameLayerManager' named in nested name specifier[0m
+  TSharedRef<SGameLayerManager> LayerManagerRef = SNew(SGameLayerManager)
+[0;1;32m                                                  ~~~~~^~~~~~~~~~~~~~~~~~
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:34:134: [0m[0;1;30mnote: [0mexpanded from macro 'SNew'[0m
+        MakeTDecl<WidgetType>( #WidgetType, __FILE__, __LINE__, RequiredArgs::MakeRequiredArgs(__VA_ARGS__) ) <<= TYPENAME_OUTSIDE_TEMPLATE WidgetType::FArguments()
+[0;1;32m                                                                                                                                            ^~~~~~~~~~~~
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h:29:7: [0m[0;1;30mnote: [0mforward declaration of 'IGameLayerManager'[0m
+class IGameLayerManager;
+[0;1;32m      ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:42:36: [0m[0;1;31merror: [0m[1mno member named 'GetGameViewport' in 'FViewportClient'[0m
+    .SceneViewport(ViewportClient->GetGameViewport())
+[0;1;32m                   ~~~~~~~~~~~~~~  ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:54:19: [0m[0;1;31merror: [0m[1mno member named 'SetViewportOverlayWidget' in 'FViewportClient'[0m
+  ViewportClient->SetViewportOverlayWidget(Window, ViewportOverlayWidgetRef);
+[0;1;32m  ~~~~~~~~~~~~~~  ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:55:19: [0m[0;1;31merror: [0m[1mno member named 'SetGameLayerManager' in 'FViewportClient'[0m
+  ViewportClient->SetGameLayerManager(LayerManagerRef);
+[0;1;32m  ~~~~~~~~~~~~~~  ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:57:3: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'SceneViewport'[0m
+  SceneViewport = MakeShareable(new FSceneViewport(ViewportClient, Viewport));
+[0;1;32m  ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:57:37: [0m[0;1;31merror: [0m[1mallocation of incomplete type 'FSceneViewport'[0m
+  SceneViewport = MakeShareable(new FSceneViewport(ViewportClient, Viewport));
+[0;1;32m                                    ^~~~~~~~~~~~~~
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h:28:7: [0m[0;1;30mnote: [0mforward declaration of 'FSceneViewport'[0m
+class FSceneViewport;
+[0;1;32m      ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:58:19: [0m[0;1;31merror: [0m[1mno member named 'Viewport' in 'FViewportClient'[0m
+  ViewportClient->Viewport = SceneViewport .Get();
+[0;1;32m  ~~~~~~~~~~~~~~  ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:58:30: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'SceneViewport'[0m
+  ViewportClient->Viewport = SceneViewport .Get();
+[0;1;32m                             ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:59:34: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'SceneViewport'[0m
+  Viewport->SetViewportInterface(SceneViewport.ToSharedRef());
+[0;1;32m                                 ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:61:35: [0m[0;1;31merror: [0m[1muse of undeclared identifier 'SceneViewport'[0m
+  FViewportFrame* ViewportFrame = SceneViewport.Get();
+[0;1;32m                                  ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:62:19: [0m[0;1;31merror: [0m[1mno member named 'SetViewportFrame' in 'FViewportClient'[0m
+  ViewportClient->SetViewportFrame(ViewportFrame);
+[0;1;32m  ~~~~~~~~~~~~~~  ^
+[0mIn file included from /home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:1:
+In file included from /home/so225523/Code/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Development/Engine/SharedPCH.Engine.ShadowErrors.h:283:
+In file included from /home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h:348:
+[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:1055:10: [0m[0;1;31merror: [0m[1mmember access into incomplete type 'IGameLayerManager'[0m
+                _Widget->SetDebugInfo( InType, InFile, OnLine, sizeof(WidgetType) );
+[0;1;32m                       ^
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:1115:9: [0m[0;1;30mnote: [0min instantiation of member function 'TSlateDecl<IGameLayerManager, RequiredArgs::T0RequiredArgs>::TSlateDecl' requested here[0m
+        return TSlateDecl<WidgetType, RequiredArgsPayloadType>(InType, InFile, OnLine, Forward<RequiredArgsPayloadType>(InRequiredArgs));
+[0;1;32m               ^
+[0m[1m/home/so225523/Code/MultiGPUTest/Source/MultiGPUTest/MultiGPUWindowTest.cpp:41:51: [0m[0;1;30mnote: [0min instantiation of function template specialization 'MakeTDecl<IGameLayerManager, RequiredArgs::T0RequiredArgs>' requested here[0m
+  TSharedRef<SGameLayerManager> LayerManagerRef = SNew(SGameLayerManager)
+[0;1;32m                                                  ^
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h:34:2: [0m[0;1;30mnote: [0mexpanded from macro 'SNew'[0m
+        MakeTDecl<WidgetType>( #WidgetType, __FILE__, __LINE__, RequiredArgs::MakeRequiredArgs(__VA_ARGS__) ) <<= TYPENAME_OUTSIDE_TEMPLATE WidgetType::FArguments()
+[0;1;32m        ^
+[0m[1m/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h:29:7: [0m[0;1;30mnote: [0mforward declaration of 'IGameLayerManager'[0m
+class IGameLayerManager;
+[0;1;32m      ^
+[0m[0;1;31mfatal error: [0mtoo many errors emitted, stopping now [-ferror-limit=][0m
+20 errors generated.
+[0m1 error generated.
+[17/19] Link (lld) libUE4Editor-MultiGPURendering.so
+LogInit: Warning: Still incompatible or missing module: MultiGPUTest
+LogInit: Warning: Still incompatible or missing module: MultiGPURendering
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+LogModuleManager: Shutting down and abandoning module RenderCore (28)
+LogModuleManager: Shutting down and abandoning module Landscape (26)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+LogModuleManager: Shutting down and abandoning module Renderer (18)
+LogModuleManager: Shutting down and abandoning module Engine (16)
+LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+LogModuleManager: Shutting down and abandoning module PakFile (4)
+LogModuleManager: Shutting down and abandoning module RSA (3)
+LogExit: Exiting.
+LogInit: Tearing down SDL.
+Log file closed, 11/17/21 13:47:45

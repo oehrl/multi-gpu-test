@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MultiGPUTest (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTest Linux Debug Build",
+			"program": "/home/so225523/Code/MultiGPUTest/Binaries/Linux/MultiGPUTest-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiGPUTest (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTest Linux DebugGame Build",
+			"program": "/home/so225523/Code/MultiGPUTest/Binaries/Linux/MultiGPUTest-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiGPUTest (Development)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTest Linux Development Build",
+			"program": "/home/so225523/Code/MultiGPUTest/Binaries/Linux/MultiGPUTest",
+			"args": [
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiGPUTest (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTest Linux Shipping Build",
+			"program": "/home/so225523/Code/MultiGPUTest/Binaries/Linux/MultiGPUTest-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiGPUTest (Test)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTest Linux Test Build",
+			"program": "/home/so225523/Code/MultiGPUTest/Binaries/Linux/MultiGPUTest-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiGPUTestEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTestEditor Linux Debug Build",
+			"program": "/home/so225523/Code/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject"
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiGPUTestEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTestEditor Linux DebugGame Build",
+			"program": "/home/so225523/Code/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject"
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "MultiGPUTestEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MultiGPUTestEditor Linux Development Build",
+			"program": "/home/so225523/Code/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject"
+			],
+			"cwd": "/home/so225523/Code/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/so225523/Code/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/so225523/Code/MultiGPUTest/MultiGPUTest.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/so225523/Code/UnrealEngine"
+		}
+	]
+}

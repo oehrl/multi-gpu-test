@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004ED6C-08D9-9FBD-D98B-EA3EAAC03EE0}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MultiGPUTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

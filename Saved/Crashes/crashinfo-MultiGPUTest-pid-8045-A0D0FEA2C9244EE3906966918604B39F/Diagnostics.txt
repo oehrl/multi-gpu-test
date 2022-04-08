@@ -1,0 +1,30 @@
+Generating report for minidump
+
+Application version 4.27.1.0
+ ... built from changelist 0
+
+OS version Linux 3.10.0-1160.el7.x86_64 (network name: itc16060.win.rz.rwth-aachen.de)
+Running 32 x86_64 processors (32 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000010"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-CoreUObject.so!UGCObjectReferencer::AddReferencedObjects(UObject*, FReferenceCollector&) [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/CoreUObject/Private/Misc/GCObjectReferencer.cpp:31]
+libUE4Editor-CoreUObject.so!TFastReferenceCollector<FGCReferenceProcessor<(EFastReferenceCollectorOptions)1>, FGCCollector<(EFastReferenceCollectorOptions)1>, FGCArrayPool, (EFastReferenceCollectorOptions)1>::ProcessObjectArray(FGCArrayStruct&, TRefCountPtr<FGraphEvent> const&) [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/FastReferenceCollector.h:879]
+libUE4Editor-CoreUObject.so!TFastReferenceCollector<FGCReferenceProcessor<(EFastReferenceCollectorOptions)1>, FGCCollector<(EFastReferenceCollectorOptions)1>, FGCArrayPool, (EFastReferenceCollectorOptions)1>::FCollectorTaskQueue::DoTask() [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject/FastReferenceCollector.h:403]
+libUE4Editor-CoreUObject.so!TGraphTask<TFastReferenceCollector<FGCReferenceProcessor<(EFastReferenceCollectorOptions)1>, FGCCollector<(EFastReferenceCollectorOptions)1>, FGCArrayPool, (EFastReferenceCollectorOptions)1>::FCollectorTaskProcessorTask>::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type) [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:886]
+libUE4Editor-Core.so!FTaskThreadAnyThread::ProcessTasks() [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:1066]
+libUE4Editor-Core.so!FTaskThreadAnyThread::ProcessTasksUntilQuit(int) [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:888]
+libUE4Editor-Core.so!FTaskThreadAnyThread::Run() [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:966]
+libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/so225523/Code/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libpthread.so.0!UnknownFunction(0x7ea4)
+libc.so.6!clone(+0x6c)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
